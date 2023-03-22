@@ -21,10 +21,10 @@ for i, fn in enumerate(fns):
     fig, axs = plt.subplots(4, 4)
     axs = axs.ravel()
 
-    for i, file in enumerate(image.files[:16]):
-        axs[i].imshow(image[file], interpolation='nearest')
-        axs[i].set_title(file)
-        axs[i].axis('off')
+    for j, file in enumerate(image.files[:16]):
+        axs[j].imshow(image[file], interpolation='nearest')
+        axs[j].set_title(file)
+        axs[j].axis('off')
 
     plt.savefig(save_path + sample + '.png', dpi=300, bbox_inches='tight')
     plt.clf()

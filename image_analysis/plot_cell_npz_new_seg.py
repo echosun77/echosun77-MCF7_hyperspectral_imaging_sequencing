@@ -20,10 +20,10 @@ for i, fn in enumerate(fns):
     fig, axs = plt.subplots(4, 4)
     axs = axs.ravel()
 
-    for i, file in enumerate(image.files[1:-1]):
-        axs[i].imshow(image[file] * (image['new_segmentation']))
-        axs[i].set_title(file)
-        axs[i].axis('off')
+    for j, file in enumerate(image.files[1:-1]):
+        axs[j].imshow(image[file] * (image['new_segmentation']))
+        axs[j].set_title(file)
+        axs[j].axis('off')
     axs[-1].imshow(image['new_segmentation'])
     axs[-1].set_title('new_segmentation')
     axs[-1].axis('off')
