@@ -1,0 +1,38 @@
+LINE 401 : 2023-11-05 13:07:34,038 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 227 : 2023-11-05 13:07:34,042 [DEBUG   ] Starting new HTTP connection (1): maayanlab.cloud:80
+LINE 452 : 2023-11-05 13:07:34,541 [DEBUG   ] http://maayanlab.cloud:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 308 164
+LINE 971 : 2023-11-05 13:07:34,547 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 452 : 2023-11-05 13:07:34,882 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 421 : 2023-11-05 13:07:35,074 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2021
+LINE 422 : 2023-11-05 13:07:35,075 [INFO    ] Analysis name: pathway, Enrichr Library: GO_Biological_Process_2021
+LINE 227 : 2023-11-05 13:07:35,081 [DEBUG   ] Starting new HTTP connection (1): maayanlab.cloud:80
+LINE 452 : 2023-11-05 13:07:35,270 [DEBUG   ] http://maayanlab.cloud:80 "POST /Enrichr/addList HTTP/1.1" 308 164
+LINE 971 : 2023-11-05 13:07:35,273 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 452 : 2023-11-05 13:07:35,998 [DEBUG   ] https://maayanlab.cloud:443 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 227 : 2023-11-05 13:07:37,010 [DEBUG   ] Starting new HTTP connection (1): maayanlab.cloud:80
+LINE 452 : 2023-11-05 13:07:37,199 [DEBUG   ] http://maayanlab.cloud:80 "GET /Enrichr/export?userListId=66656802&filename=GO_Biological_Process_2021.pathway.reports&backgroundType=GO_Biological_Process_2021 HTTP/1.1" 308 164
+LINE 971 : 2023-11-05 13:07:37,203 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 452 : 2023-11-05 13:07:37,737 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/export?userListId=66656802&filename=GO_Biological_Process_2021.pathway.reports&backgroundType=GO_Biological_Process_2021 HTTP/1.1" 200 None
+LINE 430 : 2023-11-05 13:07:38,184 [INFO    ] Save file of enrichment results: Job Id:5eb59a452d94139ae0722d3ae3e12a80
+LINE 439 : 2023-11-05 13:07:38,197 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2021 when cutoff = False
+LINE 440 : 2023-11-05 13:07:38,198 [INFO    ] Done.
+
+LINE 401 : 2023-11-05 13:07:38,218 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 227 : 2023-11-05 13:07:38,219 [DEBUG   ] Starting new HTTP connection (1): maayanlab.cloud:80
+LINE 452 : 2023-11-05 13:07:38,410 [DEBUG   ] http://maayanlab.cloud:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 308 164
+LINE 971 : 2023-11-05 13:07:38,416 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 452 : 2023-11-05 13:07:38,727 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 421 : 2023-11-05 13:07:39,011 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2021
+LINE 422 : 2023-11-05 13:07:39,011 [INFO    ] Analysis name: pathway, Enrichr Library: GO_Biological_Process_2021
+LINE 227 : 2023-11-05 13:07:39,017 [DEBUG   ] Starting new HTTP connection (1): maayanlab.cloud:80
+LINE 452 : 2023-11-05 13:07:39,205 [DEBUG   ] http://maayanlab.cloud:80 "POST /Enrichr/addList HTTP/1.1" 308 164
+LINE 971 : 2023-11-05 13:07:39,208 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 452 : 2023-11-05 13:07:39,889 [DEBUG   ] https://maayanlab.cloud:443 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 227 : 2023-11-05 13:07:40,901 [DEBUG   ] Starting new HTTP connection (1): maayanlab.cloud:80
+LINE 452 : 2023-11-05 13:07:41,090 [DEBUG   ] http://maayanlab.cloud:80 "GET /Enrichr/export?userListId=66656803&filename=GO_Biological_Process_2021.pathway.reports&backgroundType=GO_Biological_Process_2021 HTTP/1.1" 308 164
+LINE 971 : 2023-11-05 13:07:41,096 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 452 : 2023-11-05 13:07:41,606 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/export?userListId=66656803&filename=GO_Biological_Process_2021.pathway.reports&backgroundType=GO_Biological_Process_2021 HTTP/1.1" 200 None
+LINE 430 : 2023-11-05 13:07:42,024 [INFO    ] Save file of enrichment results: Job Id:ed85e2a55e9fa5d5ae7acb2d65887639
+LINE 439 : 2023-11-05 13:07:42,042 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2021 when cutoff = False
+LINE 440 : 2023-11-05 13:07:42,042 [INFO    ] Done.
+
