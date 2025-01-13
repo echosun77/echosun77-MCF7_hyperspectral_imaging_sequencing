@@ -3,4 +3,6 @@ image_analysis/.ipynb_checkpoints
 NextSeq_pipeline/.ipynb_checkpoints
 NextSeq_pipeline/data
 image_analysis/raw.txt
-
+spetra_matrixs/*png
+spetra_matrixs/*jpg
+spetra_matrixs/*
